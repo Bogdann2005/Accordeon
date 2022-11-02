@@ -1,0 +1,85 @@
+#accordeon {
+    position: absolute;
+    top: 45%;
+
+    left: 45%;
+    transform: translate(-50%,-50%);
+	width: 350px;
+	border: 10px solid #fff;
+	box-shadow: 0 0 10px grey;
+	margin: 10px;
+}
+ 
+.divhead1 {
+	padding: 10px 10px;
+	background: #c0c0c0;
+    border-bottom: 1px solid black;
+	cursor: pointer;
+}
+ 
+.divbody1 {
+	padding: 10px;
+	border-bottom: 1px solid #c0c0c0;
+	margin-bottom: 5px;
+	display: none;
+}
+.divhead2 {
+	padding: 10px 10px;
+	background: #c0c0c0;
+    border-bottom: 1px solid black;
+	cursor: pointer;
+}
+ 
+.divbody2 {
+	padding: 10px;
+	border-bottom: 1px solid #c0c0c0;
+	margin-bottom: 5px;
+	display: none;
+}
+
+
+.divhead3 {
+	padding: 10px 10px;
+	background: #c0c0c0;
+    border-bottom: 1px solid black;
+	cursor: pointer;
+}
+ 
+.divbody3 {
+	padding: 10px;
+	border-bottom: 1px solid #c0c0c0;
+	margin-bottom: 5px;
+	display: none;
+}
+.div1{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 5px;
+}
+.div2{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 5px;
+}
+.div3{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 5px;
+}
+.active{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 5px; 
+}
